@@ -5,7 +5,7 @@ import api from '../../services/api';
 // import { Container } from './styles';
 
 export default class Repository extends Component {
-  static PropTypes = {
+  static propTypes = {
     match: PropTypes.shape({
       params: PropTypes.shape({
         repository: PropTypes.string,
